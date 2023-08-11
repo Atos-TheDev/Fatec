@@ -1,0 +1,21 @@
+main (){
+     char nome[30];
+     int ;
+     float jornada, sal_bruto, desconto, sal_liq;
+     printf ("digite o nome do funcionario: ");
+     scanf ("%s", &nome);
+     printf ("digite a caga horaria do funcionario: ");
+     scanf ("%f", &jornada);
+     printf ("digite o salário bruto do funcionário: ");
+     scanf ("%f", &sal_bruto);
+     if (sal_bruto < 0){
+         printf ("digita um valor válido mula");
+     } else{
+     printf ("digite o valor que é descontado do funcionário: ");
+     scanf ("%f", &desconto);
+     sal_liq = sal_bruto - desconto;
+     printf ("O funcionario %s recebe um total de R$%.2f após os descontos",nome, sal_liq);
+     } 
+         
+     }
+     
