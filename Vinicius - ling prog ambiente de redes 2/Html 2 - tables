@@ -1,0 +1,30 @@
+<html>
+	<table>
+	<tr> 
+		<th> Nome
+		<th> Idade
+		<th> Média 
+		<th> % frequência
+		<th>semestre
+		
+		</tr>
+		
+	<tr>
+		<td> Gabs
+		<td> 29
+		<td> 10
+		<td> 100%
+		<td> terceiro
+		</tr>
+		
+	<tr>
+		<td> Atos
+		<td> 24
+		<td> 3
+		<td> 25%
+		<td> segundo e meio
+		</tr>
+
+
+</html>
+
