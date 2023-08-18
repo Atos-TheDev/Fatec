@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+main (){
+     char nome[30];
+     int ;
+     float tempo, sal_bruto, desconto, sal_liq;
+     printf ("digite o nome do funcionario: ");
+     scanf ("%s", &nome);
+     printf ("digite quantos anos de empresa tem o funcionário: ");
+     scanf ("%f", &tempo);
+     printf ("digite o salário bruto do funcionário: ");
+     scanf ("%f", &sal_bruto);
+     if (sal_bruto <= 0){
+         printf ("digita um valor válido mula");
+     } else{
+        printf ("digite o valor que é descontado do funcionário: ");
+        scanf ("%f", &desconto);
+        if (desconto < 0)
+        desconto = desconto * -1;
+        if (desconto > sal_bruto){
+            printf ("o desconto é maior que o salário???");
+            }else{
+        sal_liq = sal_bruto - desconto;
+        printf ("O funcionario %s recebe um total de R$%.2f após os descontos",nome, sal_liq);
+            }
+             
+     }
+    }
