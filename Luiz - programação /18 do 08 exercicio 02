@@ -1,0 +1,22 @@
+main (){
+     char nome[30];
+     int ;
+     float altura, largura, comprimento, m_cubico, vlr_m_cubico, orcamento;
+     printf ("Vamos calcular o orçamento necessário para sua piscina. ");
+     printf ("\n\nDigite, em metros, as medidas da sua piscina; ");
+     printf ("\n\nAltura: ");
+     scanf ("%f", &altura);
+     if (altura < 0){
+                printf ("precisa ser um valor maior que zero campeão");
+                return 0;
+     }else if (altura < 1) {
+                printf ("tá meio baixa essa piscina heim, mas ok.\n");
+     }else
+     printf ("Largura: ");
+     scanf ("%f", &largura);
+     printf ("Comprimento: ");
+     scanf ("%f", &comprimento);
+     printf ("\nPerfeito! Agora digite o valor por metragem cúbica do provedor de serviços: ");
+     scanf ("%f", &vlr_m_cubico);
+     
+    }
