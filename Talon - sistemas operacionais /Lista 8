@@ -1,0 +1,9 @@
+1.	No processamento em lote não há a possibilidade de ocorrer disputa, porque não há processamento em paralelo, logo uma ação só é iniciada quando a anterior termina, eliminando a possibilidade de disputa por recursos
+
+2.	No processamento sequencial, como não existe a possibilidade de disputa por recursos, não há a necessidade de comunicação interprocessos
+
+
+3.	Sim
+
+
+4.	
